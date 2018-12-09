@@ -1,0 +1,11 @@
+---
+ - name: My very important integration point
+   request:
+     uri: /hello/chris
+     regexuri: \/hello\/[a-z]+
+     method: GET
+   response:
+     code: 200
+     body: '{"message": "hello, Bee"}'   # * matches any body
+     headers:
+       content-type: application/json
