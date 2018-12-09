@@ -1,4 +1,4 @@
-# Simple TCP Server
+# Simple TCP Server [![Build Status](https://travis-ci.org/Negaihoshi/simple-tcp-server.svg?branch=master)](https://travis-ci.org/Negaihoshi/simple-tcp-server)
 
 A simple TCP server that support mutiple connections.
 
