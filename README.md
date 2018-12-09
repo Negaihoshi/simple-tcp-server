@@ -13,6 +13,7 @@ Build application
 $ go get github.com/quii/mockingjay-server
 $ cd $GOPATH/src/github.com/quii/mockingjay-server
 $ ./build.sh
+$ cd simple-tcp-server
 $ mockingjay-server -config=fake.yaml -monkeyConfig=monkey.yaml
 ```
 more detail: https://github.com/quii/mockingjay-server
