@@ -12,7 +12,7 @@ import (
 
 const (
 	connectionIdleTimeoutDuration = 10 * time.Second
-	ratelimitPerSecond            = 10
+	ratelimitPerSecond            = 30
 	requestLimitRate              = time.Second / ratelimitPerSecond
 )
 
